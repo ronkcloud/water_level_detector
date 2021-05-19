@@ -266,6 +266,6 @@ class WaterLevelDetector(object):
         return dst
     
 pts1 = np.float32([[1065,497],[1133,496],[1077,940],[1133,940]])
-path = ./asset/image1.jpg
+path = './asset/image1.jpg'
 detect = WaterLevelDetector(path, pts1, currentWaterLevel=0, bevel=20, peilschaalLen=100, display = False)
 waterLevel = detect.getWaterLevel()
